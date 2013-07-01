@@ -66,3 +66,9 @@ configure :build do
   # Or use a different image path
   # set :http_path, "/Content/images/"
 end
+
+# Deployment!
+activate :deploy do |deploy|
+  # Github w/ gh-pages
+  deploy.method = :git
+end

@@ -14,3 +14,6 @@ gem "middleman-livereload", "~> 3.1.0"
 platforms :mri_18 do
   gem "ruby18_source_location"
 end
+
+# Slick deployment
+gem "middleman-deploy", "~> 0.0.12"
