@@ -243,12 +243,14 @@ code {
 	Unfortunately, this declaration breaks certain lightbox, slider or other plugins,
 	so the best solution is to individually call these properties on images that 
 	are children of the grid that you want to resize with grid. 
-
-	img { 
-		max-width: 100%;
-		height: auto; }
-		
 */
+	img[class] { 
+		max-width: 100%;
+		height: auto; 
+ 		-moz-box-shadow: 0 0 2px 1px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 0 2px 1px rgba(0,0,0,.2);
+		box-shadow:  0 0 2px 1px rgba(0,0,0,.2); }
+  }
 
 
 /* #Buttons

@@ -312,6 +312,22 @@
 			background: #333;
 		}
 
+.register {
+		line-height: 45px;
+		font-size: 18px;
+		text-align: center;
+}
+		.register a {
+			background: #eb5b4c;
+			padding: 15px 20px;
+			border-radius: 10px;
+			color: #fff;
+		}
+		
+		.register a:hover {
+			background: #333;
+		}
+
 
 /* Speakers Carousel */
 #speakers {

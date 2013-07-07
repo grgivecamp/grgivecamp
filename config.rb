@@ -49,6 +49,12 @@ set :css_dir, 'css'
 set :js_dir, 'js'
 set :images_dir, 'images'
 
+# Development-specific configuration
+configure :development do
+  # Save the pinky's!
+  activate :livereload
+end
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
