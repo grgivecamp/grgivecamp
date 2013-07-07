@@ -28,7 +28,7 @@ $(document).ready(function() {
   var dDay = new Date();
   //   year - month - day
   dDay = new Date( 2013, 11, 08);
-  $('.counter').countdown({until: dDay});
+  //$('.counter').countdown({until: dDay});
 
   // ===== Feature Slidier ===== //
 
@@ -37,7 +37,7 @@ $(document).ready(function() {
 
   //Call Functions on window resize event
   $(window).resize(function(){
-    centerImgs();
+    //centerImgs();
   });
 
   //Center Images Function

@@ -2,16 +2,52 @@
   <div id="featuredSlider" class="flexslider">
     <ul class="slides">
       <li>
-      <%= image_tag "gr-skyline-1.jpg", :width => "1600", :height => "1200", :alt => "Grand Rapids Skyline" %>
+      <%= image_tag "assets/gr-skyline-1.jpg", :width => "1600", :height => "1200", :alt => "Grand Rapids Skyline" %>
       <div class="featured-wraper container container-twelve">
         <div class="featured-content seven columns">
           <h1 class="featured-title">GR GiveCamp 2013</h1>
           <div class="featured-entry">
-            <p>GiveCamp exists as a way to channel the raw energy and passion for development towards something that will benefit local communities.</p>
+            <p>GiveCamp exists as a way to channel the raw energy and passion for development towards something that will benefit local communities. <a href="about.html">Learn More &rarr;</a></p>
           </div><!-- .featured-entry-->
         </div><!-- .featured-content -->
       </div><!-- .featured-wraper -->
       </li>
+      <li>
+      <%= image_tag "assets/gr-skyline-2.jpg", :width => "1600", :height => "1200", :alt => "Grand Rapids Skyline" %>
+      <div class="featured-wraper container container-twelve">
+        <div class="featured-content seven columns">
+          <h1 class="featured-title">Volunteers</h1>
+          <div class="featured-entry">
+            <p>Ready to connect with the local tech community for a good cause? GiveCamp needs your support and skills. <a href="volunteers.html">Get Involved &rarr;</a></p>
+          </div><!-- .featured-entry-->
+        </div><!-- .featured-content -->
+      </div><!-- .featured-wraper -->
+      </li>
+
+      <!--
+      <li>
+      <%= image_tag "assets/gr-skyline-3.jpg", :width => "1600", :height => "1200", :alt => "Grand Rapids Skyline" %>
+      <div class="featured-wraper container container-twelve">
+        <div class="featured-content seven columns">
+          <h1 class="featured-title">Non-Profits</h1>
+          <div class="featured-entry">
+            <p>Does your non-profit need a new website? Time to escape those Excel spreadsheets and get a real donor database? Trying to figure out how to build your social media presence? GiveCamp is for you. <a href="non-profits.html">Apply Now &rarr;</a></p>
+          </div>
+        </div>
+      </div>
+      </li>
+      <li>
+      <%= image_tag "assets/gr-skyline-3.jpg", :width => "1600", :height => "1200", :alt => "Grand Rapids Skyline" %>
+      <div class="featured-wraper container container-twelve">
+        <div class="featured-content seven columns">
+          <h1 class="featured-title">Non-Profits</h1>
+          <div class="featured-entry">
+            <p>Does your non-profit need a new website? Time to escape those Excel spreadsheets and get a real donor database? Trying to figure out how to build your social media presence? GiveCamp is for you. <a href="non-profits.html">Apply Now &rarr;</a></p>
+          </div>
+        </div>
+      </div>
+      </li>
+      -->
     </ul>
   </div>
 </div><!-- #sliderWraper -->
@@ -31,18 +67,14 @@
 
 <div class="container container-twelve">
   <div id="counter-container" class="twelve columns container-box">
-    <div class="six columns alpha">
+    <div class="eight columns alpha">
       <div class="container-box-inner em-large">
-        <p>This year's GiveCamp is November 8-10th at The Factory, Grand Rapids.</p>
+        <p>This year's GiveCamp is November 8-10th<br/> at The Factory, Grand Rapids.</p>
       </div>
     </div>
-    <div class="six columns omega">
+    <div class="four columns omega">
       <div class="container-box-inner">
-        <div class="counter">
-        </div><!-- #counter -->
-        <div class="buy-tickets">
-          <a href="#">Register Now</a>
-        </div>
+        <p class="register" style="padding: 1em 0 0;"><a href="register-volunteers.html">Register Now</a></p>
       </div>
     </div>
   </div><!-- .twelve -->
@@ -67,24 +99,7 @@
   <div class="four columns">
     <div class="container-box">
       <div class="container-box-inner">
-        <h2 class="heading"><span>News</span></h2>
-        <ul class="calendar">
-          <li>
-          <a href="#">Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit.</a>
-          <br />
-          <span class="small">June 18th</span>
-          </li>
-          <li>
-          <a href="#">Vonsectetur adipiscing elit</a>
-          <br />
-          <span class="small">June 13th</span>
-          </li>
-          <li>
-          <a href="#">Dolor sit amet, consectetur adip</a>
-          <span class="small">May 27th</span>
-          </li>
-        </ul>
+        <%= partial "partials/twitter", :locals => { :count => 2 } %>
       </div><!-- .container-box-inner -->
     </div><!-- .container-box -->
     <div class="box-bottom bottom-sidebar"></div>
@@ -93,12 +108,12 @@
   <div class="twelve columns">
     <div class="container-box">
       <div class="container-box-inner">
-        <h2 class="heading"><span>Madison Square Garden</span></h2>
-        <img src="images/placeholders/msg.jpg" alt="msg" width="278" height="210" class="left" />
+        <h2 class="heading"><span>The Factory</span></h2>
+        <%= image_tag "assets/factory-space-1.jpg", :class => "left" %>
         <div class="em-large">
-          <p>Madison Square Garden is the longest active major sporting facility in the New York metropolitan area, and is the fourth incarnation of the arena in the city.</p>
+          <p>The Factory is a coworking community in downtown Grand Rapids, MI</p>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet tortor id ligula vulputate volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur tempor vehicula porta. Phasellus magna arcu, commodo non porta vulputate, mattis eget lacus. Nulla eget leo ipsum.<a href="venue.html">( Read More &rarr; )</a></p>
+        <p>Our downtown Grand Rapids, MI space is intentionally designed for spontaneous meetings, solo heads down time, and group work sessions. Oh, and just like your house, the most interesting conversations usually happen around the kitchen island. <a href="venue.hml">Read More &rarr;</a></p>
       </div>
     </div><!-- .container-box -->
     <div class="box-bottom bottom-full"></div>
