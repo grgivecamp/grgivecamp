@@ -35,9 +35,6 @@
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
-# Reload the browser automatically whenever files change
-# activate :livereload
-
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
@@ -52,7 +49,7 @@ set :images_dir, 'images'
 # Development-specific configuration
 configure :development do
   # Save the pinky's!
-  activate :livereload
+  # activate :livereload
 end
 
 # Build-specific configuration
