@@ -37,7 +37,7 @@ $(document).ready(function() {
 
   //Call Functions on window resize event
   $(window).resize(function(){
-    //centerImgs();
+    centerImgs();
   });
 
   //Center Images Function
