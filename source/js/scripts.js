@@ -23,6 +23,9 @@ $(document).ready(function() {
     mobileMenu.slideToggle();
   });
 
+  // ===== Mobile Videos ===== //
+  $(".fitvids").fitVids();
+  
   // ===== Counter ===== //
 
   var dDay = new Date();
