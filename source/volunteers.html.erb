@@ -8,13 +8,18 @@
 
         <p><span class='dropcap'>R</span>eady to connect with the local tech community for a good cause? GiveCamp needs your support. </p>
         
-        <%= image_tag "assets/volunteers-tech.jpg", :width => "50%", :class => 'right' %>
         <p>For one weekend in November, we'll take on the technology wish lists of 15-20 non-profit organizations, and we're looking for about <strong>100-150</strong> volunteers, both technical and non-technical, to help us do it.</p>
         
-        <p>Everyone is welcome to head home for the evenings but there are always the diehards who work from Friday kickoff straight through Sunday afternoon. Food and drinks, especially of the caffeinated variety, are provided, along with plenty of networking opportunities.</p>
+        <blockquote class=''>
+          <p>The non-profits that participate at GR GiveCamp are great organizations and I wanted to help them accomplish their goals.   I had a great time creating a positive impact on these organizations while collaborating with and learning from many different technology and community leaders in the area.  The experience was invaluable.</p>
+          <p>&ndash; Adam Delong</p>
+        </blockquote>
 
+        
         <h2>Technical volunteers</h2>
         <p>We're looking for a variety of skill-sets and talents. If you think you can help, you're skills are needed!</p>
+
+
         <ul class='check'>
           <li>graphic or UX designers</li>
           <li>back-end developers</li>
@@ -24,32 +29,40 @@
           <li>non-profit technical consultants </li>
           <li>web strategists</li>
         </ul>
-        
-        <h2>Non-technical volunteers</h2>
+
+        <h2 style='padding-top: 1em'>Non-technical volunteers</h2>
         <p>Beyond the technology, there are many other aspects that make GiveCamp a success. We need non-technical volunteers to run errands, help with setting up and cleaning up, and everything in between. Whether you can offer a couple hours of your time or join GiveCamp for a couple days, your support is needed.</p>
+
+        <div class='clearDivider'></div>
 
       </div><!-- .container-box-inner -->
     </div><!-- .container-box -->
     <div class="box-bottom bottom-full"></div>
   </div><!-- .eight -->
 
-  <div class="four columns">
+  <div class="four columns last">
+
     <div class="container-box">
       <div class="container-box-inner">
-        <h1 class='heading'>Register Now!</h1>
+        <h1 class="heading">Register Now!</h1>
         <p>We’re looking for a variety of volunteers! No matter your skill-set, we work hard to match you up with other volunteers to ensure teams optimized for the greatest giving!</p>
-        <p class='register'><a href="register-volunteers.html" >Register Now!</a></p>
+        <p class="register"><a href="register-volunteers.html">Register Now!</a></p>
       </div><!-- .container-box-inner -->
-    </div><!-- .container-box -->
+    </div>
+    <div class="box-bottom bottom-sidebar"></div>
+
     <div class='container-box'>
       <div class='container-box-inner'>
         <h2 class='heading'>Volunteers So Far</h2>
         <div class='center' style="padding: 0 3em;">
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/a/elevatorup.com/spreadsheet/tq?key=0AgQfhyRX-blBdFRYU1pRYk9iUTk4MFRob3FCeWI4TUE&transpose=0&headers=0&range=A1%3AA2&gid=2&pub=1","options":{"titleTextStyle":{"fontSize":10},"min":0,"greenTo":null,"redTo":null,"max":150,"greenFrom":null,"hAxis":{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null},"vAxes":[{"title":null,"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"logScale":false,"maxValue":null},{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"logScale":false,"maxValue":null}],"yellowTo":null,"booleanRole":"certainty","title":"Chart title","yellowFrom":null,"legend":"right","redFrom":null,"animation":{"duration":500},"width":225,"height":160},"state":{},"view":{},"isDefaultVisualization":true,"chartType":"Gauge","chartName":"Chart 1"} </script>
+          <script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/a/elevatorup.com/spreadsheet/tq?key=0AgQfhyRX-blBdFRYU1pRYk9iUTk4MFRob3FCeWI4TUE&transpose=0&headers=0&range=A1%3AA2&gid=2&pub=1","options":{"titleTextStyle":{"fontSize":10},"min":0,"greenTo":null,"redTo":null,"max":150,"greenFrom":null,"hAxis":{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null},"vAxes":[{"title":null,"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"logScale":false,"maxValue":null},{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"logScale":false,"maxValue":null}],"yellowTo":null,"booleanRole":"certainty","title":"Chart title","yellowFrom":null,"legend":"right","redFrom":null,"animation":{"duration":500},"width":225,"height":160},"state":{},"view":{},"isDefaultVisualization":true,"chartType":"Gauge","chartName":"Chart 1"} </script>
         </div>
       </div>
     </div>
-    <div class="box-bottom bottom-full"></div>
-  </div><!-- .four -->
+    <div class="box-bottom bottom-sidebar"></div>
+    
+    <%= partial "partials/non-profits" %>
+
+  </div>
 
 </div><!-- container -->
