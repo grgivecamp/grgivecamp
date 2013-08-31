@@ -3,12 +3,13 @@
   <div class="eight columns">
     <div class="container-box">
       <div class="container-box-inner">
-
         <h1 class="heading"><span>Guide for Non-Profit Agencies</span></h1>
 
-        <p><span class='dropcap'>G</span>iveCamp is a weekend-long event where technology professionals – from designers, developers and database administrators to marketers and web strategists – donate their time to provide solutions for non-profit organizations.</p>
+        <p>GiveCamp is a weekend-long event where technology professionals – from designers, developers and database administrators to marketers and web strategists – donate their time to provide solutions for non-profit organizations.</p>
 
-        <p class='center'><em><a rel="download" href="/images/assets/Non-ProfitApplicationGuide.pdf">Download a PDF version of the Guide.</a></em></p>
+        <p><em>&rarr; <a rel="download" href="/images/assets/Non-ProfitApplicationGuide.pdf">Download a PDF version of the Guide.</a></em></p>
+
+        <div class='clearDivider'></div>
 
         <h2>Why Your Agency Should Apply</h2>
         <ul class='check'>
@@ -20,7 +21,7 @@
           <li>Get help building and implementing a database or other system</li>
         </ul>
 
-        <hr />
+        <div class='lineDivider'></div>
 
         <h3>Agency’s Guide to a Good Project</h3>
         <p>Here are some things to consider when deciding what project to submit:</p>
@@ -52,8 +53,8 @@
           <p>Let us know how the project will impact your organization. What will the completion of the project allow you to do? Will it allow you to bring more attention or donations to your organization? Will it free up your staff to focus on tasks that are more important to your organization?</p>
           </li>
         </ol>
-        
-        <hr />
+
+        <div class='lineDivider'></div>
 
         <h3>Agency’s Guide to a Good Application</h3>
         <h4>Pre-Planning is the key</h4>
@@ -72,7 +73,7 @@
         <h4>Sell it!</h4>
         <p>GR GiveCamp will review your application and seek to partner your agency with the right group of volunteers. You can help to engage those volunteers on the importance of your project by 'selling' the value that this project will have on your agency and your clients. Be sure to communicate how your agency will benefit, any cost savings, and the improvement in services to your clients.</p>
 
-        <hr />
+        <div class='lineDivider'></div>
 
         <h3>Agency’s Guide to a Good Event</h3>
         <h4>Being There</h4>
@@ -87,7 +88,7 @@
         <p>Like every project, you can expect the unexpected. The final product is never quite what you thought it would be, but when you are flexible, the product is usually better than expected.</p>
         <p>Being flexible at GiveCamp means adapting to the ideas, challenges and successes of the weekend. Your team might provide valuable input that you didn’t consider during your application. Rely on you and your team’s best judgement to keep the project on track and in line with the goals.</p>
 
-        <hr />
+        <div class='lineDivider'></div>
 
         <h3>Agency’s Guide to a Next Steps:</h3>
         <ol>
@@ -96,29 +97,27 @@
           <li>Complete your application. Visit <a href="/non-profits/apply.html">http://grgivecamp.org/non-profits/apply.html</a> to get started.</li>
         </ol>
         <p>Need to talk to someone? email <a href="mailto:apply@grgivecamp.org">apply@grgivecamp.org</a></p>
+
+        <div class='clearDivider'></div>
       </div><!-- .container-box-inner -->
     </div><!-- .container-box -->
     <div class="box-bottom bottom-full"></div>
   </div><!-- .eight -->
 
   <div class="four columns">
+    <%= partial "partials/non-profit-nav" %>
 
-    <div class="container-box">
-      <div class="container-box-inner">
-        <h1 class="heading"><span>Why GiveCamp?</span></h1>
-        <p>Find out why should your agency apply to GiveCamp and how to get the most out of GiveCamp by checking out our handy <a href="/non-profits/guide.html"><em>Guide for Non-Profit Agencies</em></a></p>
-      </div><!-- .container-box-inner -->
+    <div class='column'>
+      <div class='container-box-inner'>
+        <blockquote>
+          <p>... During GiveCamp 2012, the inventory concepts were developed into a scaled database model for use and testing by the West Michigan Region of the American Red Cross. The inventory system is expected to be implemented in additional parts of the country over the next several months with additional features being planned now.</p>
+        <small>Chip Kragt <a href="http://www.redcross.org/mi/grand-rapids" rel="external">American Red Cross of West Michigan</a></small>
+        </blockquote>
+        <p>&rarr; <a href="/non-profits/testimonials.html">Read more testimonials!</a></p>
+      </div>
     </div>
-
-    <div class="container-box">
-      <div class="container-box-inner">
-        <h1 class='heading'>Apply Now!</h1>
-        <p>Your project needs to meet the minimum criteria, and we need some information about your organization to best pair your project with our team of volunteers.</p>
-        <p class='register'><a href="/non-profits/apply.html" >Appy Now!</a></p>
-        <p><em>We will be accepting applications until October 1st.</em></p>
-      </div><!-- .container-box-inner -->
-    </div><!-- .container-box -->
-    <div class="box-bottom bottom-full"></div>
+    <%= partial "partials/non-profit-apply" %>
+    <%= partial "partials/volunteer" %>
   </div><!-- .four -->
 
 </div><!-- container -->
