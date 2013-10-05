@@ -42,6 +42,9 @@
 #   end
 # end
 
+# Ignore pages we don't want to build (like backup for non-profit apply)
+ignore "non-profits/apply.bak"
+
 set :css_dir, 'css'
 set :js_dir, 'js'
 set :images_dir, 'images'
