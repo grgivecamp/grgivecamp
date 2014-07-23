@@ -13,17 +13,17 @@
       </div><!-- .featured-wraper -->
       </li>
 
-      <%#<li>%>
-      <%#= image_tag "assets/gr-skyline-3.jpg", :width => "1600", :height => "1200", :alt => "Grand Rapids Skyline" %>
-      <%#<div class="featured-wraper container container-twelve">%>
-        <%#<div class="featured-content seven columns">%>
-          <%#<h1 class="featured-title">Non-Profits</h1>%>
-          <%#<div class="featured-entry">%>
-            <%#<p>Need a new website? Time to escape those Excel spreadsheets into a real donor database? Trying to figure out how your social media presence? GiveCamp is for you. <a href="non-profits.html">Learn More &rarr;</a></p>%>
-          <%#</div>%>
-        <%#</div>%>
-      <%#</div>%>
-      <%#</li>%>
+      <li>
+      <%= image_tag "assets/gr-skyline-3.jpg", :width => "1600", :height => "1200", :alt => "Grand Rapids Skyline" %>
+      <div class="featured-wraper container container-twelve">
+        <div class="featured-content seven columns">
+          <h1 class="featured-title">Non-Profits</h1>
+          <div class="featured-entry">
+            <p>Need a new website? Time to escape those Excel spreadsheets into a real donor database? Trying to figure out how your social media presence? GiveCamp is for you. <a href="non-profits.html">Learn More &rarr;</a></p>
+          </div>
+        </div>
+      </div>
+      </li>
 
       <li>
       <%= image_tag "assets/gr-skyline-2.jpg", :width => "1600", :height => "1200", :alt => "Grand Rapids Skyline" %>
@@ -55,15 +55,16 @@
 
 <div class="container container-twelve">
   <div id="counter-container" class="twelve columns container-box">
-    <div class="eight columns alpha">
-      <div class="container-box-inner em-large">
+    <div class="twelve columns alpha omega">
+      <div class="container-box-inner em-large" style="text-align: center">
         <p>This year's GiveCamp is <strong>November 7-9th, 2014</strong><br/> at The Factory, in Grand Rapids MI.</p>
       </div>
     </div>
-    <div class="four columns omega">
-      <div class="container-box-inner">
-        <p class="register" style="padding: 1em 0 0;"><a href="register-volunteers.html">Register Now</a></p>
-      </div>
+    <div class="six columns alpha">
+      <p class="register" style="padding: 1em 0 0;"><a href="volunteers.html">Volunteers</a></p>
+    </div>
+    <div class="six columns omega">
+      <p class="register" style="padding: 1em 0 0;"><a href="non-profits.html">Non-Profits</a></p>
     </div>
   </div><!-- .twelve -->
   <div class="clear"></div>
