@@ -368,7 +368,8 @@ blockquote .bold {
 
 	#sponsors > div {
 		background: #eee;
-		height: 150px;
+		height: auto;
+        padding: 20px 0;
 		line-height: 150px;
 		text-align: center;
 	}
@@ -379,6 +380,8 @@ blockquote .bold {
 	
 		#sponsors > div img {
 			vertical-align: middle;
+            width: 80%;
+            height: auto;
 		}
 		
 		
